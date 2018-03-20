@@ -80,12 +80,14 @@ a {
 }
 
 .footer-text {
+  display: table-cell; 
   float: left;
   color: #FFFFFF;
   vertical-align: middle;
 }
 
 .footer-a {
+  display: table-cell; 
   float: left;
   color: #757575;
   vertical-align: middle;

@@ -4,7 +4,7 @@ p {
 
 /* Main Box Code */
 #main-box {
-  padding: 15%;
+  padding-top: 15%;
   background-color: #3F51B5;
   position: absolute;
   top: 0;

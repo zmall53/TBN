@@ -16,6 +16,11 @@
   margin: 0 auto;
 }
 
+#main-box-name p {
+  text-align: center;
+  vertical-align: middle;
+}
+
 /* Button Code */
 .button-create {
   background-color: #448AFF;

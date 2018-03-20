@@ -78,6 +78,16 @@ p {
 .footer-text {
   float: left;
   color: #FFFFFF;
-  padding-left: 1%;
   vertical-align: middle;
+}
+
+.footer-a {
+  float: left;
+  color: #757575;
+  vertical-align: middle;
+  text-decoration: none;
+}
+
+.footer-text-padding {
+  padding-left: 1%;
 }

@@ -60,6 +60,5 @@ p {
 }
 
 .button-create:active {
-  background-color: #3e8e41;
-  transform: translateY(4px);
+  background-color: #303F9F;
 } 

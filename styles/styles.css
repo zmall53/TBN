@@ -35,5 +35,6 @@
   margin: 4px 2px;
   cursor: pointer;
   display: flex;
+  align-items: center;
   justify-content: center;
 }

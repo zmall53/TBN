@@ -14,7 +14,7 @@ function nameCreate() {
 }
 
 function addNumb() {
-    if (hasCreate = 1) {
+    if (hasCreate == 1) {
         var numb = Math.floor(Math.random() * 99);
         var nameNumb = name + numb;
         document.getElementById("nameGen").innerHTML = nameNumb;

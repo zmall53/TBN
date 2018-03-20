@@ -52,6 +52,7 @@ p {
   align-items: center;
   justify-content: center;
   display: inline-block;
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 
 .button-create:hover {

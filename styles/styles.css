@@ -68,10 +68,10 @@ p {
 
 .footer {
     background-color: #3F51B5;
-    position: absolute;
+    position: fixed;
     left: 0;
     bottom: 0;
-    height: 15%;
+    height: 10%;
     width: 100%;
     overflow:hidden;
 }

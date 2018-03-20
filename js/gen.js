@@ -1,3 +1,4 @@
+   //Thanks to users on stack overflow
    var a = ["Small", "Blue", "Ugly"];
    var b = ["Bear", "Dog", "Banana"];
 

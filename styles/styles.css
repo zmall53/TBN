@@ -21,6 +21,10 @@
   vertical-align: middle;
 }
 
+#main-box-name-button {
+    text-align: center;
+    vertical-align: middle;
+}
 
 /* Button Code */
 .button-create {

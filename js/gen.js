@@ -8,9 +8,9 @@ var hasCreate = 0;
 function nameCreate() {
     var rA = Math.floor(Math.random()*a.length);
     var rB = Math.floor(Math.random()*b.length);
-    var name = a[rA] + b[rB];
+    name = a[rA] + b[rB];
     document.getElementById("nameGen").innerHTML = name;
-    var hasCreate = 1;
+    hasCreate = 1;
 }
 
 function addNumb() {

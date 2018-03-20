@@ -20,8 +20,3 @@ function addNumb() {
         document.getElementById("nameGen").innerHTML = nameNumb;
     }
 }
-
-//Reload
-function pageReload() {
-    location.reload();
-}

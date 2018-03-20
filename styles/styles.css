@@ -75,3 +75,8 @@ p {
     width: 100%;
     overflow:hidden;
 }
+
+#footer-text {
+  float: left;
+  padding-left: 5%;
+}

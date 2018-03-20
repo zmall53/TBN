@@ -94,3 +94,6 @@ a {
   vertical-align: middle;
 }
 
+.footer-url {
+  text-decoration: none;
+}

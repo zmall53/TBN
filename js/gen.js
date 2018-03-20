@@ -1,7 +1,9 @@
 //Name Generator -Thanks to users on stack overflow-
-function nameCreate() {
+
 var a = ["Emerald", "Wet", "Old", "SWAG", "Black", "White", "Juicy", "Screaming", "Fluffy", "Dumb", "Annoying", "Oblivious", "Sticky", "Tired"];
-var b = ["shoe", "rabbit", "boy", "girl", "creeper", "block", "cereal", "animal", "fish"];
+var b = ["shoe", "rabbit", "boy", "girl", "creeper", "block", "cereal", "animal", "fish", "tree", "mouse", "bottle"];
+
+function nameCreate() {
 
 
 var rA = Math.floor(Math.random()*a.length);

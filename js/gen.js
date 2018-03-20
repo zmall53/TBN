@@ -9,3 +9,6 @@
    document.getElementById("nameGen").innerHTML = name;
 
    //Reload
+function pageReload() {
+    location.reload();
+}

@@ -6,7 +6,8 @@ var b = ["shoe", "rabbit", "boy", "girl", "creeper", "block", "cereal", "animal"
 
 var rA = Math.floor(Math.random()*a.length);
 var rB = Math.floor(Math.random()*b.length);
-var name = a[rA] + b[rB];
+var numb = Math.floor(Math.random() * 20);
+var name = a[rA] + b[rB] + numb;
 document.getElementById("nameGen").innerHTML = name;
 }
 

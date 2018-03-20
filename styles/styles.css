@@ -1,6 +1,8 @@
 /* Main Box Code */
 #main-box {
-  background-color: #3949ab;
+  height: 44%;
+  width: 33%;
+  background-color: #C5CAE9;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -11,7 +13,7 @@
 
 /* Button Code */
 .button-create {
-    background-color: #4CAF50;
+    background-color: #448AFF;
     border: none;
     color: white;
     padding: 15px 32px;

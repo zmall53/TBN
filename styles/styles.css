@@ -79,6 +79,12 @@ a {
   overflow:hidden;
 }
 
+#footer-text-wrap {
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+}
+
 .footer-text {
   float: left;
   color: #FFFFFF;

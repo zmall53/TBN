@@ -77,7 +77,8 @@ p {
 }
 
 .footer-text {
+  float: left;
   color: #212121;
-  padding-left: 5%;
+  padding-left: 2%;
   vertical-align: middle;
 }

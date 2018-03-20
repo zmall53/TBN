@@ -2,15 +2,22 @@
 
 var a = ["Emerald", "Wet", "Old", "SWAG", "Black", "White", "Juicy", "Screaming", "Fluffy", "Dumb", "Annoying", "Oblivious", "Sticky", "Tired"];
 var b = ["shoe", "rabbit", "boy", "girl", "creeper", "block", "cereal", "animal", "fish", "tree", "mouse", "bottle"];
+var hasCreate = 0
 
 function nameCreate() {
+    var rA = Math.floor(Math.random()*a.length);
+    var rB = Math.floor(Math.random()*b.length);
+    var name = a[rA] + b[rB];
+    document.getElementById("nameGen").innerHTML = name;
+    var hasCreate = 1
+}
 
-
-var rA = Math.floor(Math.random()*a.length);
-var rB = Math.floor(Math.random()*b.length);
-var numb = Math.floor(Math.random() * 99);
-var name = a[rA] + b[rB] + numb;
-document.getElementById("nameGen").innerHTML = name;
+function addNumb() {
+    if (hasCreate = 1) {
+        var numb = Math.floor(Math.random() * 99);
+        var numbName = name + numb;
+        document.getElementById("nameGen").innerHTML = nameNumb;
+    }
 }
 
 //Reload

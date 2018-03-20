@@ -5,4 +5,4 @@
    var rA = Math.floor(Math.random()*a.length);
    var rB = Math.floor(Math.random()*b.length);
    var name = a[rA] + b[rB];
-   document.getElementById("bigboi").innerHTML = name;
+   document.getElementById("genName").innerHTML = name;

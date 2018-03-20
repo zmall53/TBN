@@ -80,20 +80,22 @@ a {
 }
 
 #footer-text-wrap {
+  display: inline-block;
   float: left;
   padding-left: 1%;
   position: relative;
-  display: table-cell;
   vertical-align: middle;
 }
 
 .footer-text {
+  display: inline-block;
   float: left;
   color: #FFFFFF;
   vertical-align: middle;
 }
 
 .footer-a {
+  display: inline-block;
   padding-top: 50%;
   color: #757575;
   vertical-align: middle;

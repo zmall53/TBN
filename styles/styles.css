@@ -94,6 +94,7 @@ a {
   vertical-align: middle;
 }
 
-.footer-url {
+.footer-url:hover, .footer-url:visited, .footer-url:link, .footer-url:active {
   text-decoration: none;
+  
 }

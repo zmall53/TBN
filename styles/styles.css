@@ -62,4 +62,16 @@ p {
 
 .button-create:active {
   background-color: #303F9F;
-} 
+}
+
+/* Footer */
+
+#footer {
+    background-color: #3F51B5;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 15%;
+    width: 100%;
+    overflow:hidden;
+}

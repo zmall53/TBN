@@ -2,14 +2,15 @@
 
 var a = ["Emerald", "Wet", "Old", "SWAG", "Black", "White", "Juicy", "Screaming", "Fluffy", "Dumb", "Annoying", "Oblivious", "Sticky", "Tired"];
 var b = ["shoe", "rabbit", "boy", "girl", "creeper", "block", "cereal", "animal", "fish", "tree", "mouse", "bottle"];
-var hasCreate = 0
+var name = "nameQuick";
+var hasCreate = 0;
 
 function nameCreate() {
     var rA = Math.floor(Math.random()*a.length);
     var rB = Math.floor(Math.random()*b.length);
     var name = a[rA] + b[rB];
     document.getElementById("nameGen").innerHTML = name;
-    var hasCreate = 1
+    var hasCreate = 1;
 }
 
 function addNumb() {

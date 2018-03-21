@@ -28,7 +28,6 @@ a {
   justify-content: center;
 }
 
-
 #main-box-name {
   width: 50%;
   min-height: 50%;
@@ -58,7 +57,7 @@ a {
   border: none;
   color: white;
   padding: 15px 32px;
-  text-align: center;    
+  text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
@@ -107,15 +106,3 @@ footer p {
   color: white;
   font-weight: 300;
 }
-
-
-
-
-
-
-
-
-
-
-
-

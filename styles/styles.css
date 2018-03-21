@@ -41,7 +41,7 @@ a {
 
 /* Button Code */
 .button-create {
-  background-color: #448AFF;
+  background-color: #1976D2;
   font-weight: bold;
   border: none;
   color: white;
@@ -76,7 +76,7 @@ a {
 /* Footer */
 
 .footer {
-  background-color: #1A237E;
+  background-color: #1976D2;
   position: fixed;
   left: 0;
   bottom: 0;

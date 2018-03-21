@@ -6,9 +6,17 @@ a {
   font-family: 'Roboto', sans-serif;
 }
 
+/* Top Bar Code */
+
+#top-bar {
+  padding-top: 5%;
+  width: 100%;
+  position: relative;
+}
+
 /* Main Box Code */
 #main-box {
-  padding-top: 15%;
+  padding-top: 10%;
   background-color: #2196F3;
   position: absolute;
   top: 0;

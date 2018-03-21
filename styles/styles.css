@@ -18,6 +18,7 @@ a {
 
 /* Main Box Code */
 #main-box {
+  height: 50%;
   display: flex;
 }
 

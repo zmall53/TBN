@@ -20,7 +20,6 @@ a {
 /* Main Box Code */
 #main-box {
   min-height: 95%;
-  height: auto !important;
   display: flex;
   flex-direction: column;
   flex: 1;

@@ -18,10 +18,12 @@ a {
 
 /* Main Box Code */
 #main-box {
+  display: flex;
 }
 
 #main-box-name {
   width: 50%;
+  height: 50%;
   margin: 0 auto;
   align-items: center;
 }

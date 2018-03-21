@@ -20,6 +20,7 @@ a {
   left: 0;
   right: 0;
   margin: auto;
+  vertical-align: bottom;
 }
 
 #main-box-name {

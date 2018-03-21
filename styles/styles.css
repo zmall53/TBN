@@ -6,6 +6,7 @@ body {
   background-color: #2196F3;
   margin: 0;
   min-height: 95%;
+  height: 100%;
 }
 
 p {
@@ -18,7 +19,9 @@ a {
 
 /* Main Box Code */
 #main-box {
-  min-height: 95vh;
+  min-height: 95%;
+  height: auto !important;
+  height: 100%;
   display: flex;
   flex-direction: column;
   flex: 1;
@@ -83,34 +86,37 @@ a {
   background-color: #303F9F;
 }
 
-/* Footer */
+/* Footer CSS */
 
-.footer {
-  height: 5vh;
-  background-color: #1976D2;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  overflow:hidden;
+footer {
+    position: fixed;
+    display: table;
+    min-height: 5%;
+    height: 5%;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #303F9F;
+    text-align: left;
 }
 
-#footer-text-wrap {
-  display: inline-block;
-  float: left;
+footer p {
+  display: table-cell;
+  vertical-align: middle;
+  margin: 0;
   padding-left: 1%;
-  position: relative;
-  vertical-align: middle;
+  color: white;
+  font-weight: 300;
 }
 
-.footer-text {
-  display: inline-block;
-  float: left;
-  color: #FFFFFF;
-  vertical-align: middle;
-}
 
-.footer-url:hover, .footer-url:visited, .footer-url:link, .footer-url:active {
-  text-decoration: none;
-  color: #E0E0E0;
-}
+
+
+
+
+
+
+
+
+
+

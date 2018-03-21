@@ -1,6 +1,7 @@
 body {
   background-color: #2196F3;
-  position: absolute;
+  margin: 0;
+  height: 100%;
 }
 
 p {
@@ -21,7 +22,7 @@ a {
   left: 0;
   right: 0;
   margin: auto;
-  vertical-align: bottom;
+  vertical-align: middle;
 }
 
 #main-box-name {

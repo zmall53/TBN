@@ -8,9 +8,6 @@ a {
 
 /* Main Box Code */
 #main-box {
-  display: flex;
-  justify-content: center;
-  align-items: center; 
   background-color: #2196F3;
   position: absolute;
   top: 0;

@@ -19,7 +19,8 @@ function addNumb() {
         var nameNumb = name + numb;
         document.getElementById("nameGen").innerHTML = nameNumb;
     } else {
+     setTimeout(function(){ document.getElementById("numbButton").style.background='#448AFF' }, 400);
      document.getElementById("numbButton").style.background='#e53935';
-     document.getElementById("numbButton").style.background='#448AFF';
     }
 }
+

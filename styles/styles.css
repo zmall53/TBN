@@ -9,7 +9,7 @@ a {
 /* Main Box Code */
 #main-box {
   background-color: #2196F3;
-  display: absolute;
+  position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
@@ -19,7 +19,7 @@ a {
 }
 
 #main-box-wrap {
-  display: absolute;
+  position: absolute;
   align: middle;
   vertical-align: middle;
   position: relative;

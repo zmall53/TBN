@@ -18,7 +18,7 @@ a {
 
 /* Main Box Code */
 #main-box {
-  min-height: 100vh;
+  min-height: 90vh;
   display: flex;
   flex-direction: column;
   flex: 1;
@@ -83,6 +83,7 @@ a {
 /* Footer */
 
 .footer {
+  min-height: 10vh;
   background-color: #1976D2;
   position: fixed;
   left: 0;

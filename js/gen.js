@@ -20,5 +20,6 @@ function addNumb() {
         document.getElementById("nameGen").innerHTML = nameNumb;
     } else {
      document.getElementById("numbButton").style.background='#e53935';
+     document.getElementById("numbButton").style.background='#448AFF';
     }
 }

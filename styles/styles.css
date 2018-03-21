@@ -18,7 +18,7 @@ a {
 
 /* Main Box Code */
 #main-box {
-  min-height: 99vh;
+  min-height: 95vh;
   display: flex;
   flex-direction: column;
   flex: 1;

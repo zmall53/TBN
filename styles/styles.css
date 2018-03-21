@@ -9,7 +9,7 @@ a {
 /* Top Bar Code */
 
 #top-bar {
-  padding-top: 5%;
+  padding-top: 1%;
   width: 100%;
   position: relative;
   text-align: center; 
@@ -23,7 +23,7 @@ a {
 
 /* Main Box Code */
 #main-box {
-  padding-top: 10%;
+  padding-top: 1%;
   background-color: #2196F3;
   position: absolute;
   top: 0;

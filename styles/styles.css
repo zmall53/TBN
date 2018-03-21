@@ -18,13 +18,13 @@ a {
 
 /* Main Box Code */
 #main-box {
-  height: 50%;
+  min-height: 100%;
   display: flex;
 }
 
 #main-box-name {
   width: 50%;
-  height: 50%;
+  min-height: 50%;
   margin: 0 auto;
   align-items: center;
 }

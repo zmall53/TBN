@@ -1,0 +1,9 @@
+manifest.json
+{
+  "name": "[namespace]",
+  "short_name": "[namespace]",
+  "lang": "en-GB",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#1976D2"
+}

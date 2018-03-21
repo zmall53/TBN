@@ -9,9 +9,11 @@ a {
 /* Main Box Code */
 #main-box {
   background-color: #2196F3;
-  position: absolute;
-  top: 0;
-  bottom: 0;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
   left: 0;
   right: 0;
   margin: auto;

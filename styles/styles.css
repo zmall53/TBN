@@ -26,6 +26,7 @@ a {
   flex: 1;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
 #main-box-name {
@@ -33,9 +34,11 @@ a {
   min-height: 50%;
   margin: 0 auto;
   align-items: center;
+  text-align: center;
 }
 
 #main-box-name p {
+
   text-align: center;
   vertical-align: middle;
 }

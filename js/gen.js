@@ -1,5 +1,9 @@
 //Name Generator -Thanks to users on stack overflow-
 
+navigator.serviceWorker && navigator.serviceWorker.register('./sw.js').then(function(registration) {
+  console.log('Excellent, registered with scope: ', registration.scope);
+});
+
 var a = ["Emerald", "Wet", "Old", "SWAG", "Black", "White", "Juicy", "Screaming", "Fluffy", "Dumb", "Annoying", "Oblivious", "Sticky", "Tired", "Awesome", "Funny", "Smart", "Brave", "Calm", "Jealous", "Blue", "Attractive", "Fancy", "Fit", "Long", "Handsome", "Beautiful", "Plump", "Purple", "Salty", "Red", "Green", "Famous", "Helpful", "Rich", "Small", "Jolly", "Blonde", "Emo"];
 var b = ["shoe", "rabbit", "creeper", "block", "cereal", "animal", "fish", "tree", "mouse", "bottle", "bird", "brother", "gamer", "flower", "monkey", "ape", "spider", "star", "panther", "sister", "ginger", "dog", "grandma", "grandpa", "whale", "water", "chicken", "horse", "man", "rat", "book", "fan", "hand"];
 var name = "nameQuick";

@@ -1,5 +1,7 @@
 //Name Generator -Thanks to users on stack overflow-
 
+var copybutton = document.querySelector("#button-copy");
+
 navigator.serviceWorker && navigator.serviceWorker.register('sw.js').then(function(registration) {
   console.log('Excellent, registered with scope: ', registration.scope);
 });
@@ -14,8 +16,7 @@ function nameCreate() {
   var rB = Math.floor(Math.random() * b.length);
   name = a[rA] + b[rB];
   document.getElementById("nameGen").innerHTML = name;
-  document.getElementById("nameGen").innerHTML = name;
-  document.setAttribute("data-clipboard-text", name);
+  copybutton.setAttribute("data-clipboard-text", name);
   hasCreate = 1;
 }
 

@@ -14,8 +14,8 @@ function nameCreate() {
   var rB = Math.floor(Math.random() * b.length);
   name = a[rA] + b[rB];
   document.getElementById("nameGen").innerHTML = name;
-  document.getElementsByTagName("button-copy")[0].setAttribute("data-clipboard-target", "#nameGen");
   hasCreate = 1;
+  document.getElementsByTagName("button-copy")[0].setAttribute("data-clipboard-target", "#nameGen");
 }
 
 function addNumb() {

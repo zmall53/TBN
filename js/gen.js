@@ -34,9 +34,9 @@ function addNumb() {
  
 function copyClip {
   if (hasCreate == 0) {
-     document.getElementById("button-create").classList.add('buttonRed');
+     document.getElementById("button-copy").classList.add('buttonRed');
     setTimeout(function() {
-      document.getElementById("button-create").classList.remove('buttonRed');
+      document.getElementById("button-copy").classList.remove('buttonRed');
     }, 400);
   }
 }

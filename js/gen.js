@@ -34,3 +34,4 @@ function addNumb() {
     }, 400);
   }
 }
+ 

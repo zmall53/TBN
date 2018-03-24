@@ -27,6 +27,7 @@ function addNumb() {
   if (hasCreate === 1) {
     var numb = Math.floor(Math.random() * 99);
     var nameNumb = name + numb;
+    document.getElementById("button-copy").setAttribute("data-clipboard-text", nameNumb);
     document.getElementById("nameGen").innerHTML = nameNumb;
   } else {
     document.getElementById("numbButton").classList.add('buttonRed');

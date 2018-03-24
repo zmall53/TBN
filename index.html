@@ -37,6 +37,7 @@
 <script src="js/gen.js"></script>
 <!-- Service worker registration -->
 <script type="text/javascript">
+      new ClipboardJS('.btn');
       if (navigator.serviceWorker.controller) {
         console.log('[PWA] active service worker found, no need to register')
       } else {

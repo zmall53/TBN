@@ -8,6 +8,7 @@ var a = ["Emerald", "Wet", "Old", "SWAG", "Black", "White", "Juicy", "Screaming"
 var b = ["shoe", "rabbit", "creeper", "block", "cereal", "animal", "fish", "tree", "mouse", "bottle", "bird", "brother", "gamer", "flower", "monkey", "ape", "spider", "star", "panther", "sister", "ginger", "dog", "grandma", "grandpa", "whale", "water", "chicken", "horse", "man", "rat", "book", "fan", "hand"];
 var name = "nameQuick";
 var hasCreate = 0;
+var hasCreateCopy = 0;
 
 function nameCreate() {
   var rA = Math.floor(Math.random() * a.length);
@@ -15,6 +16,7 @@ function nameCreate() {
   name = a[rA] + b[rB];
   document.getElementById("nameGen").innerHTML = name;
   hasCreate = 1;
+  hasCreateCopy = 1;
   document.getElementsByTagName("button-copy")[0].setAttribute("data-clipboard-target", "#nameGen");
 }
 
@@ -32,9 +34,9 @@ function addNumb() {
 }
  
 function copyClip() {
-  if (hasCreate === 0) {
+  if (hasCreateCopy === 0) {
      document.getElementById("button-copy").classList.add('buttonRed');
-     setTimeout(function() {
+     setTimeout(function red() {
       document.getElementById("button-copy").classList.remove('buttonRed');
     }, 400);
   }

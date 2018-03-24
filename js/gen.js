@@ -1,7 +1,5 @@
 //Name Generator -Thanks to users on stack overflow-
 
-var copybutton = document.querySelector("#button-copy");
-
 navigator.serviceWorker && navigator.serviceWorker.register('sw.js').then(function(registration) {
   console.log('Excellent, registered with scope: ', registration.scope);
 });

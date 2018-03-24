@@ -14,10 +14,10 @@ function nameCreate() {
   var rA = Math.floor(Math.random() * a.length);
   var rB = Math.floor(Math.random() * b.length);
   name = a[rA] + b[rB];
-  document.getElementById("nameGen").innerHTML = name;
   hasCreate = 1;
   hasCreateCopy = 1;
-  document.getElementsByTagName("button-copy")[0].setAttribute("data-clipboard-target", "#nameGen");
+  document.getElementById("nameGen").innerHTML = name;
+  document.getElementsById("button-copy")[0].setAttribute("data-clipboard-target", "#nameGen");
 }
 
 function addNumb() {
@@ -36,7 +36,7 @@ function addNumb() {
 function copyClip() {
   if (hasCreateCopy === 0) {
      document.getElementById("button-copy").classList.add('buttonRed');
-     setTimeout(function red() {
+     setTimeout(function() {
       document.getElementById("button-copy").classList.remove('buttonRed');
     }, 400);
   }

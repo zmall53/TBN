@@ -1,7 +1,5 @@
 //Name Generator -Thanks to users on stack overflow-
 
-document.getElementById('button-copy').style.visibility='hidden'
-
 navigator.serviceWorker && navigator.serviceWorker.register('sw.js').then(function(registration) {
   console.log('Excellent, registered with scope: ', registration.scope);
 });
@@ -16,7 +14,6 @@ function nameCreate() {
   var rB = Math.floor(Math.random() * b.length);
   name = a[rA] + b[rB];
   document.getElementById("nameGen").innerHTML = name;
-  document.getElementById('button-create').style.visibility='visible'
   document.getElementById("nameGen").innerHTML = name;
   elt.setAttribute("data-clipboard-text", name);
   hasCreate = 1;
@@ -35,3 +32,11 @@ function addNumb() {
   }
 }
  
+function copyClip {
+  if (hasCreate == 0) {
+     document.getElementById("button-create").classList.add('buttonRed');
+    setTimeout(function() {
+      document.getElementById("button-create").classList.remove('buttonRed');
+    }, 400);
+  }
+}

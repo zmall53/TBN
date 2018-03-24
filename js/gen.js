@@ -34,7 +34,7 @@ function addNumb() {
 function copyClip {
   if (hasCreate == 0) {
      document.getElementById("button-copy").classList.add('buttonRed');
-    setTimeout(function() {
+     setTimeout(function1() {
       document.getElementById("button-copy").classList.remove('buttonRed');
     }, 400);
   }

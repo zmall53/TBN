@@ -19,7 +19,7 @@ function nameCreate() {
 }
 
 function addNumb() {
-  if (hasCreate == 1) {
+  if (hasCreate === 1) {
     var numb = Math.floor(Math.random() * 99);
     var nameNumb = name + numb;
     document.getElementById("nameGen").innerHTML = nameNumb;
@@ -32,7 +32,7 @@ function addNumb() {
 }
  
 function copyClip() {
-  if (hasCreate == 0) {
+  if (hasCreate === 0) {
      document.getElementById("button-copy").classList.add('buttonRed');
      setTimeout(function() {
       document.getElementById("button-copy").classList.remove('buttonRed');

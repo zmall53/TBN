@@ -19,6 +19,7 @@ function nameCreate() {
   hasCreateCopy = 1;
   document.getElementById("nameGen").innerHTML = name;
   document.getElementById("button-copy").setAttribute("data-clipboard-target", "#nameGen");
+  document.getElementById("button-copy").setAttribute("data-clipboard-text", name);
 }
 
 function addNumb() {

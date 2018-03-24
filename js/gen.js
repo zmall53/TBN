@@ -16,7 +16,7 @@ function nameCreate() {
   var rB = Math.floor(Math.random() * b.length);
   name = a[rA] + b[rB];
   document.getElementById("nameGen").innerHTML = name;
-  document.getElementById('p1').style.visibility='visible'
+  document.getElementById('button-create').style.visibility='visible'
   document.getElementById("nameGen").innerHTML = name;
   elt.setAttribute("data-clipboard-text", name);
   hasCreate = 1;

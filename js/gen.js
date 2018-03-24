@@ -15,7 +15,7 @@ function nameCreate() {
   name = a[rA] + b[rB];
   document.getElementById("nameGen").innerHTML = name;
   document.getElementById("nameGen").innerHTML = name;
-  elt.setAttribute("data-clipboard-text", name);
+  document.setAttribute("data-clipboard-text", name);
   hasCreate = 1;
 }
 

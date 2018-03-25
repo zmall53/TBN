@@ -51,7 +51,7 @@ a {
 }
 
 .textGreen {
-  color: #388E3C;
+  color: #388E3C !important;
 }
 
 /* Button Code */

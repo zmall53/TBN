@@ -50,7 +50,12 @@ a {
 
 #nameGen {
   color: white;
-  font-size: 36px
+  font-size: 36px;
+  transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.textGreen {
+  color: #388E3C !important;
 }
 
 /* Button Code */

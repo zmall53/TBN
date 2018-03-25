@@ -50,6 +50,10 @@ a {
   font-size: 36px
 }
 
+.textGreen {
+  color: #388E3C;
+}
+
 /* Button Code */
 
 .button-create {
@@ -76,11 +80,6 @@ a {
 .buttonRed {
   background-color: #e53935;
 }
-
-.buttonGreen {
-  background-color: #388E3C;
-}
-
 
 .button-create:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23)

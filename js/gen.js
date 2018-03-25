@@ -40,9 +40,14 @@ function addNumb() {
 function copyClip() {
   "use strict";
   if (hasCreateCopy === 0) {
-     document.getElementById("button-copy").classList.add('buttonRed');
-     setTimeout(function() {
+      document.getElementById("button-copy").classList.add('buttonRed');
+      setTimeout(function() {
       document.getElementById("button-copy").classList.remove('buttonRed');
+    }, 400);
+  } else {
+      document.getElementById("button-copy").classList.add('buttonGreen');
+      setTimeout(function() {
+      document.getElementById("button-copy").classList.remove('buttonGreen');
     }, 400);
   }
 }

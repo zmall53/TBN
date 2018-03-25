@@ -11,4 +11,5 @@ Thanks to [Jumsler](https://github.com/Jumsler) for the words
  1. Name Generator
  2. Option to add numbers
  3. PWA Support
+ 4. Copy on button
 

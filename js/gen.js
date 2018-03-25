@@ -45,9 +45,9 @@ function copyClip() {
       document.getElementById("button-copy").classList.remove('buttonRed');
     }, 400);
   } else {
-      document.getElementById("button-copy").classList.add('buttonGreen');
+      document.getElementById("nameGen").classList.add('textGreen');
       setTimeout(function() {
-      document.getElementById("button-copy").classList.remove('buttonGreen');
+      document.getElementById("nameGen").classList.remove('textGreen');
     }, 400);
   }
 }
